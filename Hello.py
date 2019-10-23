@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     name = "Hello,Flask!!!"
     # return name
-    return render_template('hello.html', title='flask test', name=name) #HTMLレンダーバージョン
+    return render_template('layout.html', name=name) #HTMLレンダーバージョン
 
 ## おまじない
 if __name__ == "__main__":
