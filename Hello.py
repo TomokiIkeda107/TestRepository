@@ -11,7 +11,7 @@ def hello():
 @app.route("/index") #HTMLレンダーバージョン
 def index():
     name = "Hello,Flask&HTML!!!"
-    return render_template('index.html', message=name) 
+    return render_template('Hello.html', message=name) 
 
 ## おまじない
 if __name__ == "__main__":
